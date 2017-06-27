@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
                         Button view = (Button) v;
                         view.getBackground().clearColorFilter();
                         view.invalidate();
-                        break;
+
+                        finish();
                     }
                     case MotionEvent.ACTION_DOWN: {
                         Button view = (Button) v;
